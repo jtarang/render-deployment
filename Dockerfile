@@ -4,7 +4,7 @@ FROM public.ecr.aws/gravitational/teleport-distroless:18.5.0
 # or will run with flags passed through Render environment.
 
 
-ENTRYPOINT ["/usr/local/bin/teleport"]
+ENTRYPOINT []
 
 # Render Secrets File path
-CMD ["start", "--config=/etc/secrets/teleport.yaml"]
+CMD ["/usr/local/bin/teleport", "start", "--config=/etc/secrets/teleport.yaml"]
