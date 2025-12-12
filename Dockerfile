@@ -1,5 +1,4 @@
-#FROM public.ecr.aws/gravitational/teleport-distroless:18.5.0
-FROM public.ecr.aws/gravitational/teleport-ent:18.5.0
+FROM public.ecr.aws/gravitational/teleport-distroless:18.5.0
 
 # Teleport will look for teleport.yaml provided by Render
 # or will run with flags passed through Render environment.
