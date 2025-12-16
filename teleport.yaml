@@ -3,7 +3,7 @@ teleport:
   nodename: render-psql-server
   data_dir: /var/lib/teleport
   join_params:
-    token_name: # tctl tokens add --type=app --ttl=10m --format=yaml
+    token_name: THE-TOKEN-VALUE-FROM-THE-COMMAND # tctl tokens add --type=app --ttl=10m --format=yaml
     method: token
   proxy_server: EXAMPLE.teleport.sh:443
   log:
