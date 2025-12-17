@@ -15,6 +15,7 @@ auth_service:
   enabled: "no"
 ssh_service:
   enabled: "no"
+  labels:
     db: postgres
 proxy_service:
   enabled: "no"
